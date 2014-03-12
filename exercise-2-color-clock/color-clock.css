@@ -1,0 +1,23 @@
+body {
+	min-height: 100%;
+	position: relative;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	background-color: #000;
+	color: white;
+}
+
+h1{
+	font-size: 40px;
+	padding:60px 0px;
+	text-shadow: -1px -1px 1px rgba(0,0,0,0.6);
+	}
+
+#cur_color{
+	font-size: 35px;
+}
+
+.cur-time{
+	display:inline;
+	float:center;
+	font-size: 35px;
+}
