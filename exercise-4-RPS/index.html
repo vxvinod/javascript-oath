@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang>
+<head>
+  <meta charset="utf-8">
+  <title>Rock | Paper | Scissors</title>
+   <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="rps.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+ </head>
+
+<body>
+	<div class = "container">
+
+		<div class = "player" id="computer-container">
+			<div class="title" id="comp_title">Computer</div>
+			
+			<div class="class-left">
+				<div class="hand" id="left-hand"><img src="left_hand.jpeg"></div>
+				<div class="left disp" id="left-rock" style="display:none"><img src="rock.jpeg"></div>
+				<div class="left disp" id="left-paper" style="display:none"><img src="paper.jpeg"></div>
+				<div class="left disp" id="left-scissor" style="display:none"><img src="scissors.jpeg"></div>
+			</div>
+		</div>
+			<div id="result">choose your weapon</div>
+
+
+		<div class = "player" id="player-container">
+			<div class="title" id="player_title">You</div>
+		
+			<div class="class-right">
+				<div class="hand" id="right-hand" ><img src="right_hand.jpeg"></div>
+				<div class="right disp" id="right-rock" style="display:none"><img src="rock.jpeg"></div>
+				<div class="right disp" id="right-paper" style="display:none"><img src="paper.jpeg"></div>
+				<div class="right disp" id="right-scissor" style="display:none"><img src="scissors.jpeg"></div>
+			</div>
+
+		</div>
+
+		<div class="button">
+			<div class="but btn_up" id="rock">Rock</div>
+			<div class="but btn_up" id="paper">Paper</div>
+			<div class="but btn_up" id="scissor">Scissor</div>
+		</div>
+	</div>
+
+</body>
+  <script type="text/javascript" src="rps.js"></script>
+</html>
